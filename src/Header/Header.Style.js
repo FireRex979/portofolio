@@ -16,6 +16,7 @@ const useStyles = createUseStyles({
     logo: {
         display: 'flex',
         alignItems: 'center',
+        textDecoration: 'none',
         '& h4': {
             color: '#6E85B7',
             fontSize: '24px',

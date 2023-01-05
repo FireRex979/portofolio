@@ -1,6 +1,7 @@
 import React from 'react';
 import useStyles from './Header.Style';
 import NavMenu from './NavMenu';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     const classes = useStyles();
@@ -8,10 +9,10 @@ export default function Header() {
         <div className={classes.header}>
             <div className='container'>
                 <div className={classes.navbar}>
-                    <div className={classes.logo}>
+                    <Link to='/' className={classes.logo}>
                         <h4>FireRex</h4>
                         <span>•</span>
-                    </div>
+                    </Link>
                     <NavMenu />
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import useStyles from './Header.Style';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function NavMenu() {
     const [showMenu, setShowMenu] = useState(false);
@@ -18,9 +19,15 @@ export default function NavMenu() {
                 <span></span>
             </button>
             <ul>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About Me</a></li>
+                <li>
+                    <Link to='/projects'>Projects</Link>
+                </li>
+                <li>
+                    <Link to='/blogs'>Blogs</Link>
+                </li>
+                <li>
+                    <Link to='/about'>About</Link>
+                </li>
             </ul>
         </div>
     )
