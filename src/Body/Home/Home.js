@@ -5,7 +5,6 @@ import { socialMediaData } from "../../Object.utils";
 export default function Home() {
   const classes = useStyles();
   const socialMedia = socialMediaData();
-  console.log(socialMedia);
   return (
     <div className="container">
       <div className={classes.identifyContainer}>

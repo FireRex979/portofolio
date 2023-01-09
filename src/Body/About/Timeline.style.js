@@ -50,6 +50,11 @@ const useStyles = createUseStyles({
       fontSize: "14px",
     },
   },
+  "@media (max-width: 680px)": {
+    timeline: {
+      padding: "10px 10px",
+    },
+  },
 });
 
 export default useStyles;

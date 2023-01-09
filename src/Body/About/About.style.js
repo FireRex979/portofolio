@@ -45,6 +45,21 @@ const useStyles = createUseStyles({
     color: "#000",
     marginTop: "20px",
   },
+  "@media (max-width: 680px)": {
+    aboutContainer: {
+      padding: "0 20px",
+      margin: "10px 0",
+    },
+    aboutContent: {
+      "& .aboutTitle": {
+        fontSize: "1.3rem",
+      },
+      "& .aboutInfo": {
+        fontSize: "1rem",
+        textAlign: "justify",
+      },
+    },
+  },
 });
 
 export default useStyles;

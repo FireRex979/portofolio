@@ -111,4 +111,35 @@ const getTimelineData = () => [
   },
 ];
 
-export { socialMediaData, getSkillData, getTimelineData };
+const getDataProjects = () => [
+  {
+    id: "1",
+    title: "Project 1",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    tags: ["React.js", "Laravel", "Bootstrap"],
+  },
+  {
+    id: "2",
+    title: "Project 2",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    tags: ["React.js", "Laravel", "Bootstrap"],
+  },
+  {
+    id: "3",
+    title: "Project 3",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    tags: ["React.js", "Laravel", "Bootstrap"],
+  },
+  {
+    id: "4",
+    title: "Project 4",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    tags: ["React.js", "Laravel", "Bootstrap"],
+  },
+];
+
+export { socialMediaData, getSkillData, getTimelineData, getDataProjects };
