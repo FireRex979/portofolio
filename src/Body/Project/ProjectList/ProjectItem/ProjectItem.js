@@ -7,6 +7,11 @@ export default function ProjectItem(props) {
     <a href="#" key={props.id} className={classes.projectListItem}>
       <img src="https://via.placeholder.com/400x300" alt="" />
       <div className={classes.projectItemContent}>
+        <div className={classes.projectTagsContainer}>
+          {props.tags.map((tag) => (
+            <span key={tag}>{tag}</span>
+          ))}
+        </div>
         <h5>{props.title}</h5>
         <p>{props.description}</p>
       </div>

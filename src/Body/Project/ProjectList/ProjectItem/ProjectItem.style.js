@@ -35,6 +35,21 @@ const useStyles = createUseStyles({
       textDecoration: "none",
     },
   },
+  projectTagsContainer: {
+    display: "flex",
+    flexWrap: "wrap",
+    marginTop: "10px",
+    "& span": {
+      padding: "5px 10px",
+      backgroundColor: "#F2F2F2",
+      borderRadius: "5px",
+      fontSize: "12px",
+      color: "#666",
+      marginRight: "5px",
+      marginBottom: "5px",
+      textDecoration: "none",
+    },
+  },
 });
 
 export default useStyles;

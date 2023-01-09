@@ -140,6 +140,34 @@ const getDataProjects = () => [
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     tags: ["React.js", "Laravel", "Bootstrap"],
   },
+  {
+    id: "5",
+    title: "Project 4",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    tags: ["React.js", "Laravel", "Bootstrap"],
+  },
+  {
+    id: "6",
+    title: "Project 4",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    tags: ["React.js", "Laravel", "Bootstrap"],
+  },
+  {
+    id: "7",
+    title: "Project 4",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    tags: ["React.js", "Laravel", "Bootstrap"],
+  },
+  {
+    id: "8",
+    title: "Project 4",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    tags: ["React.js", "Laravel", "Bootstrap"],
+  },
 ];
 
 export { socialMediaData, getSkillData, getTimelineData, getDataProjects };
