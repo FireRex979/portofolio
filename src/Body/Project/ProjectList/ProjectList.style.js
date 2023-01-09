@@ -42,6 +42,19 @@ const useStyles = createUseStyles({
       textDecoration: "none",
     },
   },
+  "@media (max-width: 680px)": {
+    projectListContainer: {
+      gridTemplateColumns: "repeat(2, 1fr)",
+    },
+    projectListItem: {
+      width: "100%",
+      "& img": {
+        width: "100%",
+        objectFit: "cover",
+        height: "100px",
+      },
+    },
+  },
 });
 
 export default useStyles;

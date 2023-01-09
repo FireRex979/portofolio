@@ -50,6 +50,13 @@ const useStyles = createUseStyles({
       textDecoration: "none",
     },
   },
+  "@media (max-width: 680px)": {
+    projectTagsContainer: {
+      "& span": {
+        display: "none",
+      },
+    },
+  },
 });
 
 export default useStyles;

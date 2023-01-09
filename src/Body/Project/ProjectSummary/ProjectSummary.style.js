@@ -20,6 +20,16 @@ const useStyles = createUseStyles({
       fontWeight: "bold",
     },
   },
+  "@media (max-width: 680px)": {
+    projectSummaryContainer: {
+      display: "grid",
+      gridTemplateColumns: "repeat(2, 1fr)",
+      gridTemplateRows: "repeat(1fr)",
+    },
+    projectSummary: {
+      padding: "0px 0",
+    },
+  },
 });
 
 export default useStyles;

@@ -10,7 +10,7 @@ export default function ProjectList() {
     <div className={classes.projectListContainer}>
       {data.map((item) => (
         <ProjectItem
-          id={item.id}
+          key={item.id}
           title={item.title}
           description={item.description}
           tags={item.tags}

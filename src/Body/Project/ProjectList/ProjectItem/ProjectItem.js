@@ -8,8 +8,8 @@ export default function ProjectItem(props) {
       <img src="https://via.placeholder.com/400x300" alt="" />
       <div className={classes.projectItemContent}>
         <div className={classes.projectTagsContainer}>
-          {props.tags.map((tag) => (
-            <span key={tag}>{tag}</span>
+          {props.tags.map((tag, index) => (
+            <span key={index}>{tag}</span>
           ))}
         </div>
         <h5>{props.title}</h5>
