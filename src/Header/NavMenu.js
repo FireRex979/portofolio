@@ -22,9 +22,9 @@ export default function NavMenu() {
         <li>
           <Link to="/project">Projects</Link>
         </li>
-        <li>
-          <Link to="/blogs">Blogs</Link>
-        </li>
+        {/* <li>
+          <Link to="/blog">Blogs</Link>
+        </li> */}
         <li>
           <Link to="/about">About</Link>
         </li>
