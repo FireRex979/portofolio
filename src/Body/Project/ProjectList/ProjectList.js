@@ -11,6 +11,8 @@ export default function ProjectList() {
       {data.map((item) => (
         <ProjectItem
           key={item.id}
+          id={item.id}
+          image={item.imageBanner}
           title={item.title}
           description={item.description}
           tags={item.tags}
