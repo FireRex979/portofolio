@@ -2,6 +2,7 @@ import React from "react";
 import useStyles from "./Header.Style";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import clsx from "clsx";
 
 export default function NavMenu() {
   const [showMenu, setShowMenu] = useState(false);
@@ -18,7 +19,30 @@ export default function NavMenu() {
         <span></span>
         <span></span>
       </button>
-      <ul>
+      <div
+        onClick={handleMenu}
+        className={clsx(classes.overlay, {
+          [classes.overlayHide]: !showMenu,
+        })}
+      ></div>
+      <div
+        className={clsx(classes.sidebar, {
+          [classes.sidebarHide]: !showMenu,
+        })}
+      >
+        <ul className={classes.sidebarMenu}>
+          <li>
+            <Link to="/project">Projects</Link>
+          </li>
+          {/* <li>
+          <Link to="/blog">Blogs</Link>
+        </li> */}
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+        </ul>
+      </div>
+      <ul className={classes.navUl}>
         <li>
           <Link to="/project">Projects</Link>
         </li>
